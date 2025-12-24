@@ -13,14 +13,14 @@
 // Bước 3: Click "Create API Key" 
 // Bước 4: Copy API Key và paste vào đây
 
-define('GEMINI_API_KEY', 'AIzaSyA7yVfS8eIz2Y6xmPd_In4Kw-eSKq-lbO8');
+define('GEMINI_API_KEY', 'xxxxxxxxxxxxxxxxxxx');
 define('GEMINI_MODEL', 'gemini-pro'); // Model miễn phí
 
 // ===========================================
 // OPENAI GPT (TRẢ PHÍ - THÔNG MINH NHẤT)
 // ===========================================
 
-define('OPENAI_API_KEY', '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');
+define('OPENAI_API_KEY', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
 define('OPENAI_MODEL', 'gpt-4o-mini'); // Model rẻ: $0.15/1M tokens
 define('USE_OPENAI', true); // Dùng OpenAI
 
