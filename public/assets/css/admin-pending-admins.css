@@ -1,0 +1,165 @@
+:root {
+    --primary-gradient: linear-gradient(135deg, #334155 0%, #64748b 100%);
+    --success-gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    --danger-gradient: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+    --warning-gradient: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+.info-card {
+    background: linear-gradient(135deg, #33415515 0%, #64748b15 100%);
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border-left: 4px solid #334155;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+}
+
+.info-card i {
+    color: #334155;
+    margin-right: 8px;
+}
+
+.pending-table {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.pending-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pending-table thead {
+    background: #1e293b;
+}
+
+.pending-table th {
+    color: #f8fafc;
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #334155;
+}
+
+.pending-table td {
+    padding: 16px;
+    border-bottom: 1px solid #f8fafc;
+    vertical-align: middle;
+}
+
+.pending-table tbody tr {
+    transition: all 0.3s ease;
+}
+
+.pending-table tbody tr:hover {
+    background: linear-gradient(to right, #f8f9ff, #f1f5f9);
+    transform: translateX(2px);
+}
+
+.pending-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.action-btn {
+    padding: 8px 18px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.action-btn i {
+    font-size: 12px;
+}
+
+.btn-approve {
+    background: var(--success-gradient);
+    color: #f1f5f9;
+}
+
+.btn-approve:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(67, 233, 123, 0.4);
+}
+
+.btn-reject {
+    background: var(--danger-gradient);
+    color: #f1f5f9;
+}
+
+.btn-reject:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(245, 87, 108, 0.4);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 80px 40px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state i {
+    font-size: 72px;
+    background: var(--success-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.empty-state h3 {
+    color: #333;
+    margin: 0 0 12px 0;
+    font-size: 24px;
+}
+
+.empty-state p {
+    color: #999;
+    font-size: 15px;
+}
+
+.badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.alert {
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.alert i {
+    font-size: 18px;
+}
+
+.alert-success {
+    background: linear-gradient(135deg, #43e97b15 0%, #38f9d715 100%);
+    border-left: 4px solid #43e97b;
+    color: #2d8659;
+}
+
+.alert-danger {
+    background: linear-gradient(135deg, #f5576c15 0%, #f093fb15 100%);
+    border-left: 4px solid #f5576c;
+    color: #c1395b;
+}

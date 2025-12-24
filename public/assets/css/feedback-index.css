@@ -1,0 +1,146 @@
+/* Feedback Index Page Styles */
+.breadcrumb {
+    max-width: 1400px;
+    margin: 20px auto 15px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+.breadcrumb a {
+    color: #718096;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    color: #ff6b9d;
+}
+.breadcrumb .separator {
+    color: #cbd5e0;
+}
+.breadcrumb .current {
+    color: #2d3748;
+    font-weight: 600;
+}
+.feedback-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.feedback-form {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(255, 107, 157, 0.15);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group label .required {
+    color: #e91e63;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff6b9d;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.btn-submit {
+    background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    transform: translateY(-2px);
+}
+
+.info-box {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 4px solid #2196f3;
+}
+
+.info-box h3 {
+    color: #1976d2;
+    margin-bottom: 10px;
+}
+
+.info-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-box li {
+    padding: 5px 0;
+    color: #555;
+}
+
+.info-box i {
+    color: #2196f3;
+    margin-right: 8px;
+}
+
+.feedback-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feedback-link a {
+    color: #ff6b9d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.feedback-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}

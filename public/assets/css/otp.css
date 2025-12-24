@@ -1,0 +1,61 @@
+/**
+ * OTP Verification Styles
+ */
+
+.otp-input {
+    width: 100%;
+    font-size: 32px;
+    letter-spacing: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.otp-input:focus {
+    border-color: #27ae60;
+    box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.1);
+}
+
+.resend-otp {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resend-otp button {
+    background: transparent;
+    border: none;
+    color: #27ae60;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.resend-otp button:hover {
+    color: #229954;
+}
+
+.email-info {
+    background: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.email-info i {
+    color: #27ae60;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.email-info p {
+    margin: 5px 0;
+    color: #2c3e50;
+}
+
+.email-info strong {
+    color: #27ae60;
+}
